@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0">
+  <info>
+    <title>Test Style</title>
+    <id>http://www.zotero.org/styles/test</id>
+    <link href="http://www.zotero.org/styles/test" rel="self"/>
+    <author>
+      <name>Dein Name</name>
+    </author>
+  </info>
+  <citation>
+    <layout prefix="(" suffix=")" delimiter=", ">
+      <text variable="author"/>
+      <text macro="et-al"/>
+      <text variable="issued" prefix=", "/>
+    </layout>
+  </citation>
+  <macro name="et-al">
+    <text term="et-al" font-style="italic"/>
+  </macro>
+  <locale xml:lang="en">
+    <terms>
+      <term name="et-al" font-style="italic">et al.</term>
+    </terms>
+  </locale>
+</style>
